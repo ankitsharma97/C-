@@ -16,7 +16,11 @@ int main()
     // {
     //     cout<<*it<<" ";
     // }
-
+    l.reverse();
+    forward_list<int> l2={55,44};
+    l.merge(l2);
+    l.sort();
+    l.reverse();
     for(auto i:l)
     {
         cout<<i<<" ";
